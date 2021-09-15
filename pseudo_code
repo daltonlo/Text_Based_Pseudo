@@ -1,0 +1,24 @@
+Create a list of different room types to randomly pick from including a treasure room and an escape area
+Create a list of different enemies to randomly pick from
+Create a list of different treasures to randomly pick from
+Randomly pick room type
+  If treasure room
+    randomly pick treasure 
+  Elif escape area
+    Start a battle with the final boss a dragon
+    If player wins
+      The game ends and player escapes
+    Else
+      Game over and restart
+  Else
+    Randomly pick an enemy from the list
+    Start a battle with the enemy
+    If player wins
+      Continue exploring the room
+        If player says continue
+          Randomly pick another room
+        Elif player says investigate
+          Depending on the room they might find clues to help them moving forward
+    Else
+      Game over
+  
